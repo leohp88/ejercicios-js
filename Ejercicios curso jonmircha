@@ -1,0 +1,33 @@
+//Contar la cantidad de caracteres de una palabra 
+
+let hello = "Hola mundo";
+
+console.log (hello.length)
+
+console.log (hello.lastIndexOf(""));
+
+const palabra = {
+    nombre: "Pedro",
+    apellido: "Martinez"
+};
+
+const resumen = palabra.nombre + palabra.apellido;
+console.log (resumen.length); 
+
+//Segundo Ejercicio 
+
+let mundo = "Hola Mundo"
+console.log (mundo.slice(0,4))
+
+//Tercer ejercicio 
+
+let mensaje = "'Hola' 'que' 'tal'";
+mensaje = Array (mensaje);
+console.log (mensaje);
+
+//Cuarto Ejercicio 
+
+let m = "Hola mundo "
+console.log (m.repeat(3));
+console.log (`${m} ${m} ${m}`);
+
